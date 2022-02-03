@@ -1,0 +1,77 @@
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Allow percentage-based heights in the application */
+
+html,
+body {
+    height: 100%;
+}
+
+/* Add accessible line-height & Improve Text rendering */
+
+body {
+    background-color: var(--background-color);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Avoid text overflow */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    overflow-wrap: break-word;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+img,
+picture,
+video,
+canvas,
+iframe,
+svg {
+    display: block;
+    max-width: 100%;
+    max-inline-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+

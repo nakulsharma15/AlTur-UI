@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Heading */
+
+.header-xxl {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.header-xl {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.header-l {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.header-m {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.header-s {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+/* Text */
+
+.text-xxl {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.text-xl {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.text-l {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.text-m {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.text-s {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+/* Font weight */
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.boldest {
+    font-weight: 900;
+}
+
