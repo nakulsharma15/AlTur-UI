@@ -2,6 +2,10 @@
 
     --black: #000000;
 
+    --blue-50: #f0fdfa;
+    --blue-100: #cffafe;
+    --blue-200: #a5f3fc;
+    --blue-300: #93c5fd;
     --blue-400: #60a5fa;
     --blue-500: #3b82f6;
     --blue-600: #2563eb;
@@ -25,7 +29,7 @@
 
     --orange-300: #fdba74;
     --orange-400: #fb923c;
-    --orange-500: #ef4444;
+    --orange-500: #f97316;
     --orange-600: #dc2626;
     --orange-700: #b91c1c;
 

@@ -1,6 +1,23 @@
-.flex-center {
+:root {
+    --padding-one: 1rem;
+    --margin-one: 1rem;
+}
+
+.flex-center{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.flex-center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.space-one {
+    margin: 1rem;
+    padding: 1rem;
 }
 
