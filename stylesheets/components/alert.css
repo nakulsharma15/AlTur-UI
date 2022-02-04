@@ -2,7 +2,7 @@
     max-width: 35rem;
     padding: var(--padding-one);
     margin: var(--margin-one);
-    border-radius: 0.25rem;
+    border-radius: 4px;
     color: var(--gray-50);
 }
 
