@@ -1,0 +1,52 @@
+.badges {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.badge-style {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--secondary-color);
+}
+
+.icon-badge {
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.icon{
+    font-size: 2.5rem;
+}
+
+.top-right {
+    top: -3.5rem;
+    right: -2rem;
+}
+
+.bottom-left {
+    bottom: -2rem;
+    left: -3rem;
+}
+
+.avatar-badge {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-online {
+    background-color: var(--green-500);
+}
+
+.avatar-offline {
+    background-color: var(--gray-500);
+}
+
+.avatar-dnd {
+    background-color: var(--red-500);
+}
+
