@@ -7,7 +7,7 @@
     background-color: var(--gray-50);
 }
 
-.btn-focus {
+.btn:focus {
     outline: none;
 }
 
