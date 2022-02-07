@@ -7,10 +7,6 @@
     background-color: var(--gray-50);
 }
 
-.btn:focus {
-    outline: none;
-}
-
 .primary-btn {
     background-color: var(--primary-color); 
 }
