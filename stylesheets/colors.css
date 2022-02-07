@@ -10,6 +10,8 @@
     --blue-500: #3b82f6;
     --blue-600: #2563eb;
     --blue-700: #1d4ed8;
+    --blue-800: #1e40af;
+    --blue-900: #1e3a8a;
 
     --gray-50: #f9fafb;
     --gray-200: #e5e7eb;
@@ -30,8 +32,8 @@
     --orange-300: #fdba74;
     --orange-400: #fb923c;
     --orange-500: #f97316;
-    --orange-600: #dc2626;
-    --orange-700: #b91c1c;
+    --orange-600: #ea580c;
+    --orange-700: #c2410c;
 
     --red-300: #fca5a5;
     --red-400: #f87171;
@@ -54,7 +56,7 @@
 
     --background-color: var(--gray-50);
 
-    --primary-color: var(--blue-500);
+    --primary-color: var(--blue-700);
 
     --secondary-color: var(--orange-500);
 
