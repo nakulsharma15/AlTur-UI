@@ -1,0 +1,128 @@
+.card {
+    font-family: 'Poppins', sans-serif;
+    margin: var(--margin-one);
+    display: flex;
+    max-width: 19rem;
+    height: fit-content;
+    background-color: var(--white);
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 1rem var(--gray-400);
+}
+
+.card-img {
+    cursor: pointer;
+    border-radius: 0.5rem;
+    max-height: 10rem;
+}
+
+.card-title {
+    margin: 0.5rem var(--margin-one);  
+}
+
+.card-info {
+    margin: 0 var(--margin-one);
+}
+
+.card-title p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.card-icon {
+    width: 2rem;
+    padding: 0.25rem 1.75rem 0.25rem 0.5rem;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 50%;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.card-icon:hover {
+    color: var(--gray-50);
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+/* Horizontal Card  */
+
+.horizontal-card {
+    max-width: 23rem;
+}
+
+.h-card-header {
+    display: flex;
+}
+
+.h-card-img {
+    max-width: 8rem;
+    cursor: pointer;
+}
+
+.horizontal-card .card-icon {
+    margin-right: 2rem
+}
+
+/* Text only Card */
+
+.text-only-card .card-info {
+    padding-bottom: 0.75rem;
+}
+
+/* Card with Shadow */
+
+.card-with-shadow {
+    box-shadow: 0rem 0rem 2rem var(--gray-500)
+}
+
+/* Card with Text Overlay */
+
+.card-with-text-overlay {
+    position: relative;
+}
+
+.text-overlay {
+    padding-left: 1.5rem;
+    position: absolute;
+    top: 5rem;
+    color: var(--red);
+}
+
+/* Card with Dismiss */
+
+.dismiss-icon {
+    margin-left: 16rem;
+    top: 0;
+    color: var(--black);
+    cursor: pointer;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.dismiss-icon:hover {
+    color: var(--gray-50);
+    background-color: var(--primary-color);
+}
+
+/* Card with Badge */
+
+.card-with-badge p {
+    color: var(--red-500);
+}
+
+.card-with-badge s {
+    color: var(--gray-600);
+}
+
+.special-badge {
+    max-width: fit-content;
+    background-color: var(--green-500);
+    color: var(--gray-50);
+    border-top-left-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    top: 0rem;
+}
+
