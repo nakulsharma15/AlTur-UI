@@ -16,6 +16,11 @@
     justify-content: center;
 }
 
+.flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
 .space-one {
     margin: 1rem;
     padding: 1rem;
