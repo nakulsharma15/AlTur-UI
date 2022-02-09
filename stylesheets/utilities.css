@@ -26,3 +26,6 @@
     padding: 1rem;
 }
 
+.box-shadow {
+    box-shadow: 4px 4px 16px var(--gray-400);
+}
