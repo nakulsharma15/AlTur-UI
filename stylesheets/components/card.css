@@ -7,12 +7,12 @@
     background-color: var(--white);
     flex-direction: column;
     border-radius: 0.5rem;
-    box-shadow: 0.25rem 0.25rem 1rem var(--gray-400);
+    box-shadow: 4px 4px 16px var(--gray-400);
 }
 
 .card-img {
     cursor: pointer;
-    border-radius: 0.5rem;
+    border-radius: 8px;
     max-height: 10rem;
 }
 
@@ -31,12 +31,13 @@
 
 .card-icon {
     width: 2rem;
-    padding: 0.25rem 1.75rem 0.25rem 0.5rem;
+    padding: 4px 28px 4px 8px;
     background-color: transparent;
     border: transparent;
     border-radius: 50%;
     margin-left: 1rem;
     font-size: 1.25rem;
+    padding-right: 1.75rem;
 }
 
 .card-icon:hover {
@@ -60,7 +61,7 @@
 }
 
 .horizontal-card .card-icon {
-    margin-right: 2rem
+    margin-right: 1.5rem;
 }
 
 
