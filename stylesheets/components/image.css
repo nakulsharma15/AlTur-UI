@@ -1,0 +1,26 @@
+.responsive-img {
+    width: 100%;
+    object-fit: cover;
+    block-size: auto;
+}
+
+.square-img-sm {
+     width: 10rem;
+}
+
+.square-img-lg {
+    width: 15rem;
+}
+
+.round-img {
+    border-radius: 50%;
+}
+
+.round-img-sm {
+    height: 10rem;
+}
+
+.round-img-lg {
+    height: 15rem;
+}
+
