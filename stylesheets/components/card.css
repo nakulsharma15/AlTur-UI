@@ -45,7 +45,6 @@
     cursor: pointer;
 }
 
-/* Horizontal Card  */
 
 .horizontal-card {
     max-width: 23rem;
@@ -64,19 +63,16 @@
     margin-right: 2rem
 }
 
-/* Text only Card */
 
 .text-only-card .card-info {
     padding-bottom: 0.75rem;
 }
 
-/* Card with Shadow */
 
 .card-with-shadow {
     box-shadow: 0rem 0rem 2rem var(--gray-500)
 }
 
-/* Card with Text Overlay */
 
 .card-with-text-overlay {
     position: relative;
@@ -89,7 +85,6 @@
     color: var(--red);
 }
 
-/* Card with Dismiss */
 
 .dismiss-icon {
     margin-left: 16rem;
@@ -107,7 +102,6 @@
     background-color: var(--primary-color);
 }
 
-/* Card with Badge */
 
 .card-with-badge p {
     color: var(--red-500);
