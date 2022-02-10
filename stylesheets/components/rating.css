@@ -1,0 +1,20 @@
+.star-rating {
+    color: gold;
+    cursor: pointer;
+}
+
+.icon-empty {
+    color: var(--gray-600);
+}
+
+.icon-empty:hover {
+    color: gold;
+}
+
+.badge-rating {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+    background-color: var(--secondary-color);
+}
+
