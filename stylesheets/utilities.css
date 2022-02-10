@@ -18,6 +18,7 @@
 
 .flex-justify-center {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -28,4 +29,23 @@
 
 .box-shadow {
     box-shadow: 4px 4px 16px var(--gray-400);
+}
+
+.text-gray {
+    color: var(--gray-500);
+}
+
+.content-right {
+    display: flex;
+    justify-content: right;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.content-left {
+    display: flex;
+    justify-content: left;
 }
