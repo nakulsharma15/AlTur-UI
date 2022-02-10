@@ -6,31 +6,26 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Heading */
+/* Font weight */
 
-.header-xxl {
-    font-size: 3rem;
-    line-height: 4rem;
+.light {
+    font-weight: 300;
 }
 
-.header-xl {
-    font-size: 2rem;
-    line-height: 2.5rem;
+.regular {
+    font-weight: 400;
 }
 
-.header-l {
-    font-size: 1.5rem;
-    line-height: 2rem;
+.semi-bold {
+    font-weight: 600;
 }
 
-.header-m {
-    font-size: 1rem;
-    line-height: 1.5rem;
+.bold {
+    font-weight: 700;
 }
 
-.header-s {
-    font-size: 0.5rem;
-    line-height: 1rem;
+.boldest {
+    font-weight: 900;
 }
 
 /* Text */
@@ -58,27 +53,5 @@
 .text-s {
     font-size: 0.75rem;
     line-height: 1rem;
-}
-
-/* Font weight */
-
-.light {
-    font-weight: 300;
-}
-
-.regular {
-    font-weight: 400;
-}
-
-.semi-bold {
-    font-weight: 600;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.boldest {
-    font-weight: 900;
 }
 
