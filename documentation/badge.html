@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../stylesheets/main.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css" />
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="../../stylesheets/main.css">
+    <link rel="stylesheet" href="../../stylesheets/docs.css">
+
+    <title>Badge | Altur UI</title>
+</head>
+
+<body>
+
+    <nav class="flex-center-sb text-xxl">
+        <a href="../index.html"> <h1 class="text-xxl">Altur UI</h1></a>
+ 
+         <div class="links text-l">
+             <a href="../documentation/alert.html">Docs <i class="fas fa-file"></i></a>
+             <a target="_blank" href="https://github.com/nakulsharma15/Altur-UI">GitHub <i class="fab fa-github"></i></a>     
+         </div>    
+     </nav>
+
+    <div class="container">
+
+        <aside class="menu">
+           
+            <ul class="text-m menu-ul">
+                <li class="menu-item text-l">
+                    <a href="alert.html">Alert</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="avatar.html">Avatar</a>
+                </li>
+                <li class="link-active menu-item text-l">
+                    <a href="badge.html">Badge</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="button.html">Button</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="card.html">Card</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="image.html">Image</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="input.html">Input</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="list.html">List</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="rating.html">Rating</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="text-utility.html">Text Utility</a>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+
+            <h1 class="boldest text-xxl">Badge</h1>
+
+            <h3 class="text-l"> Badges are visual indicator which are used in many different areas. They can be used to
+                show status of a user or to show notifications or to show number of Items in the cart.
+            </h3>
+
+            <h2 class="sub-heading text-xl">Badge on Icons</h2>
+
+            <h3 class="sub-text text-l"> These are used to show number of messages/notifications or to show number of
+                items in cart.
+            </h3>
+            <div class="flex-center badges">
+
+                <div class="icon-badge">
+                    <i class="icon fas fa-shopping-cart"></i>
+                    <div class="top-right badge-style"> 15 </div>
+                </div>
+
+                <div class="icon-badge">
+                    <i class="icon fas fa-bell"></i>
+                    <div class="top-right badge-style"> 15 </div>
+                </div>
+
+                <div class="icon-badge">
+                    <i class="icon fas fa-envelope"></i>
+                    <div class="top-right badge-style"> 15 </div>
+                </div>
+
+                <div class="icon-badge">
+                    <i class="icon far fa-comment"></i>
+                    <div class="top-right badge-style badge-icon"> 15 </div>
+                </div>
+
+            </div>
+
+            <div class="code-snippet">
+
+                <pre><code>               
+                        <div class="icon-badge">
+                            <i class="icon fas fa-shopping-cart"></i>
+                            <div class="top-right badge-style"> 15 </div>
+                        </div>
+        
+                        <div class="icon-badge">
+                            <i class="icon fas fa-bell"></i>
+                            <div class="top-right badge-style"> 15 </div>
+                        </div>
+        
+                        <div class="icon-badge">
+                            <i class="icon fas fa-envelope"></i>
+                            <div class="top-right badge-style"> 15 </div>
+                        </div>
+        
+                        <div class="icon-badge">
+                            <i class="icon far fa-comment"></i>
+                            <div class="top-right badge-style badge-icon"> 15 </div>
+                        </div>
+                        
+                </code></pre>
+
+            </div>
+
+            <h2 class="sub-heading text-xl">Badge on Avatars</h2>
+
+            <h3 class="sub-text text-l">These are used to show the status of the user(i.e., whether the user in
+                online/offline/DND).
+            </h3>
+
+            <div class="flex-center badges">
+
+                <div class="avatar-badge">
+                    <div class="flex-center">
+                        <img class="avatar avatar-l" src="../assets/avatar.jpg" alt="avatar-img">
+                    </div>
+                    <div class="bottom-left badge-style  avatar-online">
+                    </div>
+                </div>
+
+                <div class="avatar-badge">
+                    <div class="flex-center">
+                        <img class="avatar avatar-l" src="../assets/avatar.jpg" alt="avatar-img">
+                    </div>
+                    <div class="bottom-left badge-style  avatar-offline">
+                    </div>
+                </div>
+
+                <div class="avatar-badge">
+                    <div class="flex-center">
+                        <img class="avatar avatar-l" src="../assets/avatar.jpg" alt="avatar-img">
+                    </div>
+                    <div class="bottom-left badge-style  avatar-dnd">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="code-snippet">
+
+                <pre><code>
+                        <div class="avatar-badge">
+                            <div class="flex-center">
+                                <img class="avatar avatar-l" src="../assets/avatar.jpg" alt="avatar-img">
+                            </div>
+                            <div class="bottom-left badge-style  avatar-online">
+                            </div>
+                        </div>
+                
+                        <div class="avatar-badge">
+                            <div class="flex-center">
+                                <img class="avatar avatar-l" src="../assets/avatar.jpg" alt="avatar-img">
+                            </div>
+                            <div class="bottom-left badge-style  avatar-offline">
+                            </div>
+                        </div>
+                
+                        <div class="avatar-badge">
+                            <div class="flex-center">
+                                <img class="avatar avatar-l" src="../assets/avatar.jpg" alt="avatar-img">
+                            </div>
+                            <div class="bottom-left badge-style  avatar-dnd">
+                            </div>
+                        </div>    
+                </code></pre>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <br></br>
+
+    <footer class="flex-justify-align">
+        <p>Made with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/nakulsharma15">Nakul Sharma</a> </p>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

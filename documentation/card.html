@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../stylesheets/main.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css" />
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="../../stylesheets/main.css">
+    <link rel="stylesheet" href="../../stylesheets/docs.css">
+
+    <title>Card | Altur UI</title>
+</head>
+
+<body>
+
+    <nav class="flex-center-sb text-xxl">
+        <a href="../index.html"> <h1 class="text-xxl">Altur UI</h1></a>
+ 
+         <div class="links text-l">
+             <a href="../documentation/alert.html">Docs <i class="fas fa-file"></i></a>
+             <a target="_blank" href="https://github.com/nakulsharma15/Altur-UI">GitHub <i class="fab fa-github"></i></a>     
+         </div>    
+     </nav>
+    </nav>
+
+    <div class="container">
+
+        <aside class="menu">
+    
+            <ul class="text-m menu-ul">
+                <li class="menu-item text-l">
+                    <a href="alert.html">Alert</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="avatar.html">Avatar</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="badge.html">Badge</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="button.html">Button</a>
+                </li>
+                <li class="link-active menu-item text-l">
+                    <a href="card.html">Card</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="image.html">Image</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="input.html">Input</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="list.html">List</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="rating.html">Rating</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="text-utility.html">Text Utility</a>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+
+            <h1 class="boldest text-xxl">Card</h1>
+
+            <h3 class="text-l">Cards are mostly used in E-Commerce to convey short and concise information about the
+                products. Here, six types of cards are shown: </h3>
+
+            <h2 class="sub-heading text-xl">Vertical Card</h2>
+
+            <div class="flex-center">
+
+                <div class="card">
+                    <div class="card-img flex-justify-center">
+                        <img class="card-img flex-justify-center" src="../assets/card-img.jpg" alt="Product">
+                    </div>
+                    <div class="card-title">
+                        <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+
+                        <p>₹1,49,999</p>
+                    </div>
+                    <div class="card-info">
+                        Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="card-icon"> <i class="far fa-heart"></i> </button>
+                        <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="code-snippet">
+                <pre><code>   
+              
+                <div class="card">
+                    <div class="card-img flex-justify-center">
+                        <img class="card-img flex-justify-center" src="../assets/card-img.jpg" alt="Product">
+                    </div>
+                    <div class="card-title">
+                       <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+            
+                       <p>₹1,49,999</p>
+                    </div>
+                    <div class="card-info">
+                       Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="card-icon"> <i class="far fa-heart"></i> </button>
+                        <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>
+                    </div>
+                </div>
+
+                </code></pre>
+            </div>
+
+            <h2 class="sub-heading text-xl">Horizontal Card</h2>
+
+            <div class="flex-center">
+
+                <div class="card horizontal-card">
+                    <div class="h-card-header">
+                        <div class="h-card-img">
+                            <img class="h-card-img" src="../assets/card-img.jpg" alt="Product">
+                        </div>
+                        <div class="card-title">
+                            <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+                            <p>₹1,49,999</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="card-icon"> <i class="far fa-heart"></i> </button>
+                        <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-snippet">
+                <pre><code>   
+                    <div class="card horizontal-card">
+                        <div class="h-card-header">
+                            <div class="h-card-img">
+                                <img class="h-card-img" src="../assets/card-img.jpg" alt="Product">
+                            </div>
+                            <div class="card-title">
+                                <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+                                <p>₹1,49,999</p>     
+                             </div>
+                        </div>
+                        <div class="card-footer">       
+                            <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>      
+                            <button class="card-icon"> <i class="far fa-heart"></i> </button>       
+                            <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>         
+                        </div> 
+                    </div>    
+                    
+                </code></pre>
+            </div>
+
+            <h2 class="sub-heading text-xl">Text Only Card</h2>
+
+            <div class="flex-center">
+                <div class="card text-only-card">
+                    <div class="card-title">
+                        <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+                        <p>₹1,49,999</p>
+                    </div>
+                    <div class="card-info">
+                        Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="code-snippet">
+                <pre><code>  
+                    <div class="flex-center">
+                        <div class="card text-only-card">
+                            <div class="card-title">
+                                <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+                                <p>₹1,49,999</p>
+                             </div>        
+                             <div class="card-info">
+                                Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                             </div>        
+                        </div>
+                    </div>
+                  </code></pre>
+            </div>
+
+            <h2 class="sub-heading text-xl">Card with Shadow</h2>
+
+            <div class="flex-center">
+
+                <div class="card card-with-shadow">
+                    <div class="card-img flex-justify-center">
+                        <img class="card-img flex-justify-center" src="../assets/card-img.jpg" alt="Product">
+                    </div>
+                    <div class="card-title">
+                        <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+                        <p>₹1,49,999</p>
+                    </div>
+                    <div class="card-info">
+                        Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="card-icon"> <i class="far fa-heart"></i> </button>
+                        <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-snippet">
+                <pre><code>  
+             <div class="card card-with-shadow">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/card-img.jpg" alt="Product">
+                </div>       
+                <div class="card-title">
+                   <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>       
+                   <p>₹1,49,999</p>
+                </div>       
+                <div class="card-info">
+                   Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                </div>       
+                <div class="card-footer">      
+                    <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>      
+                    <button class="card-icon"> <i class="far fa-heart"></i> </button>       
+                    <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>            
+                </div>
+            </div>
+
+            </code></pre>
+            </div>
+
+            <h2 class="sub-heading text-xl">Card with Text Overlay</h2>
+
+            <div class="flex-center">
+                <div class="card card-with-text-overlay">
+                    <div class="card-img flex-justify-center">
+                        <img class="card-img flex-justify-center" src="../assets/card-img.jpg" alt="Product">
+                    </div>     
+                    <h2 class="text-overlay">Currently unavailable</h2>
+                    <div class="card-title">
+                       <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>      
+                       <p>₹1,49,999</p>
+                    </div>       
+                    <div class="card-info">
+                       Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                    </div>       
+                    <div class="card-footer">       
+                        <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>       
+                        <button class="card-icon"> <i class="far fa-heart"></i> </button>       
+                        <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>         
+                    </div>       
+                </div>
+          
+            </div>
+
+            <div class="code-snippet">
+                <pre><code>
+                    <div class="card card-with-text-overlay">
+                        <div class="card-img flex-justify-center">
+                            <img class="card-img flex-justify-center" src="../assets/card-img.jpg" alt="Product">
+                        </div>     
+                        <h2 class="text-overlay">Currently unavailable</h2>
+                        <div class="card-title">
+                           <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>      
+                           <p>₹1,49,999</p>
+                        </div>       
+                        <div class="card-info">
+                           Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                        </div>       
+                        <div class="card-footer">       
+                            <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>       
+                            <button class="card-icon"> <i class="far fa-heart"></i> </button>       
+                            <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>         
+                        </div>       
+                    </div>
+                </code></pre>
+            </div>
+
+
+           <h2 class="sub-heading text-xl">Card with Dismiss</h2>
+
+           <div class="flex-center">
+            <div class="card card-with-text-overlay card-with-dismiss">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/card-img.jpg" alt="Product">
+                </div>
+                <div class="card-title">
+                <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>   
+                <p>₹1,49,999</p>
+                </div>    
+                <i class="text-overlay dismiss-icon far fa-times-circle"></i>
+                <div class="card-info">
+                Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                </div>    
+                <div class="card-footer">   
+                    <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>   
+                    <button class="card-icon"> <i class="far fa-heart"></i> </button>    
+                    <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>      
+                </div>      
+           </div>
+           </div>
+
+           <div class="code-snippet">
+               <pre><code>
+
+                <div class="card card-with-text-overlay card-with-dismiss">
+                    <div class="card-img flex-justify-center">
+                        <img class="card-img flex-justify-center" src="../assets/card-img.jpg" alt="Product">
+                    </div>
+                    <div class="card-title">
+                    <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>   
+                    <p>₹1,49,999</p>
+                    </div>    
+                    <i class="text-overlay dismiss-icon far fa-times-circle"></i>
+                    <div class="card-info">
+                    Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                    </div>    
+                    <div class="card-footer">   
+                        <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>   
+                        <button class="card-icon"> <i class="far fa-heart"></i> </button>    
+                        <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>      
+                    </div>      
+                </div>
+               </code></pre>
+           </div>
+
+           <h2 class="sub-heading text-xl">Card with Badge</h2>
+
+            <div class="flex-center">
+          
+                <div class="card card-with-badge card-with-text-overlay">
+                    <div class="card-img flex-justify-center">
+                        <img class="card-img flex-justify-center" src="../assets/card-img.jpg" alt="Product">
+                    </div>
+                    <div class="card-title">
+                    <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+                    <p>₹1,27,499 <s class="text-s">₹1,49,999</s>  </p>
+                    </div>
+                    <div class="special-badge text-overlay">15% off</div>
+                    <div class="card-info">
+                    Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                    </div>   
+                    <div class="card-footer">   
+                        <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>   
+                        <button class="card-icon"> <i class="far fa-heart"></i> </button>   
+                        <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>     
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-snippet">
+                <pre><code>
+                    <div class="card card-with-badge card-with-text-overlay">
+                        <div class="card-img flex-justify-center">
+                            <img class="card-img flex-justify-center" src="../assets/card-img.jpg" alt="Product">
+                        </div>
+                        <div class="card-title">
+                        <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+                        <p>₹1,27,499 <s class="text-s">₹1,49,999</s>  </p>
+                        </div>
+                        <div class="special-badge text-overlay">15% off</div>
+                        <div class="card-info">
+                        Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage)
+                        </div>   
+                        <div class="card-footer">   
+                            <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>   
+                            <button class="card-icon"> <i class="far fa-heart"></i> </button>   
+                            <button class="card-icon"> <i class="fas fa-share-alt"></i></i> </button>     
+                        </div>
+                    </div>
+            
+                </code></pre>
+            </div>
+             <br></br>
+
+        </div>
+
+    </div>
+
+    <footer class="flex-justify-align">
+        <p>Made with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/nakulsharma15">Nakul Sharma</a> </p>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
