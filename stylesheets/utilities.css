@@ -40,6 +40,15 @@
     padding: 1rem;
 }
 
+.limit-width {
+    width: max-content;
+}
+
+.link-active {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
 .box-shadow {
     box-shadow: 4px 4px 16px var(--gray-400);
 }
