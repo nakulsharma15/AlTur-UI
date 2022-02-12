@@ -1,0 +1,53 @@
+body {
+    overflow-x: hidden;
+}
+.container {
+    display: flex;
+}
+
+.menu-ul {
+    margin: 2.5rem;
+}
+.menu {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    
+}
+
+.menu-item {
+   padding: 1rem 0rem;
+   margin: 0.5rem 0rem;
+   margin-left: 2rem;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.main-content {
+    padding-top: 2.5rem;
+    margin-left: 5rem;
+    padding-left: 2.5rem;
+}
+
+.main-content h1,h2,h3 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sub-heading {
+    color: var(--primary-color);
+}
+
+.sub-text {
+    color: var(--secondary-color);
+}
+
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+}
+
