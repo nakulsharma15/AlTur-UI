@@ -71,3 +71,9 @@
     display: flex;
     justify-content: left;
 }
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
