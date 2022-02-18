@@ -95,3 +95,21 @@
 }
 
 
+.flex-center-se {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-wr-sb {
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
