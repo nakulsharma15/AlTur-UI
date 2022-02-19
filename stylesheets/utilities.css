@@ -113,3 +113,8 @@
     align-items: center;
 }
 
+.flex-sp-ev {
+    display: flex;
+    justify-content: space-evenly;
+}
+
