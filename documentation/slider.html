@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../../stylesheets/main.css">
     <link rel="stylesheet" href="../../stylesheets/docs.css">
 
-    <title>Toast | Altur UI</title>
+    <title>Slider | Altur UI</title>
 </head>
 
 <body>
@@ -69,13 +69,13 @@
                 <li class="menu-item text-l">
                     <a href="rating.html">Rating</a>
                 </li>
-                <li class="menu-item text-l">
+                <li class="link-active menu-item text-l">
                     <a href="slider.html">Slider</a>
                 </li>
                 <li class="menu-item text-l">
                     <a href="text-utility.html">Text Utility</a>
                 </li>
-                <li class="link-active menu-item text-l">
+                <li class="menu-item text-l">
                     <a href="toast.html">Toast</a>
                 </li>
             </ul>
@@ -84,57 +84,33 @@
 
         <div class="main-content">
 
-            <h1 class="boldest text-xxl">Toast</h1>
+            <h1 class="boldest text-xxl">Slider</h1>
 
-            <h3 class="text-l">Toasts are used to convery some information after an action. It lasts for a few seconds before disappearing. They are usually used for quick info to the user without blocking the screen/ userflow. Here, two types of
-                toasts are shown: </h3>
+            <h3 class="text-l">Sliders are used to get input from the user that requires on a range of values. These are mostly seen in E-Commerce apps to filter products based on price ranges and in Multimedia apps to control playback volume.: </h3>
 
-                <h2 class="sub-heading text-xl">Baseline Toast</h2>
-            <div class="toasts">
-
-                <div class="snackbar content-center">
-                    <div class="toast baseline-toast">
-                        <p>Can't send photo. Retry in 5 seconds.</p>
-                        <button>RETRY</button>
-                        <i class="icons bl-icons fas fa-times"></i>
-                    </div>
-
+                <div class="content-center slider-container">
+                    <input type="range" min="0" max="10000" step="2500" list="tickmarks" class="slider" />
+                    <datalist id="tickmarks" class="flex-between txt-sm">
+                        <option value="0" class="txt-semibold" label="0"></option>
+                        <option value="2500" class="hide"></option>
+                        <option value="5000" class="txt-semibold" label="5K"></option>
+                        <option value="7500" class="hide"></option>
+                        <option value="10000" class="txt-semibold" label="10K"></option>
+                    </datalist>
                 </div>
 
-                <div class="code-snippet">
-                    <pre><code>
-                        <div class="toast baseline-toast">
-                            <p>Can't send photo. Retry in 5 seconds.</p>
-                            <button>RETRY</button>
-                            <i class="icons bl-icons fas fa-times"></i>
-                        </div>
-                    </code></pre>
-                </div>
-
-                <h2 class="sub-heading text-xl">Stacked Toast</h2>
-                <div class="snackbar content-center">
-                    <div class="toast stacked-toast flex-column">
-                        <p>This item already has the label "travel". You can add a new label. </p>
-                        <div class="stacked-actions">
-                            <button>ADD A NEW LABEL</button>
-                            <i class="icons sd-icons fas fa-times"></i>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="code-snippet">
-                    <pre><code>
-                        <div class="toast stacked-toast">
-                            <p>This item already has the label "travel". You can add a new label. </p>
-                            <div class="stacked-actions">
-                                <button>ADD A NEW LABEL</button>
-                                <i class="icons sd-icons fas fa-times"></i>
-                            </div>
-                        </div>
-                    </code></pre>
-                </div>
-
+            
+            <div class="code-snippet">
+                <pre><code>
+                    <input type="range" min="0" max="10000" step="2500" list="tickmarks" class="slider" />
+                    <datalist id="tickmarks" class="flex-between txt-sm">
+                        <option value="0" class="txt-semibold" label="0"></option>
+                        <option value="2500" class="hide"></option>
+                        <option value="5000" class="txt-semibold" label="5K"></option>
+                        <option value="7500" class="hide"></option>
+                        <option value="10000" class="txt-semibold" label="10K"></option>
+                    </datalist>
+                </code></pre>
             </div>
 
         </div>
@@ -142,8 +118,7 @@
     </div>
 
     <footer class="flex-justify-align">
-        <p>Made with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/nakulsharma15">Nakul
-                Sharma</a> </p>
+        <p>Made with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/nakulsharma15">Nakul Sharma</a> </p>
     </footer>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
