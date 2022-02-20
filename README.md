@@ -1,9 +1,10 @@
+<img src="assets/homepage.PNG" alt="Altur-UI Landing Page"  />
+
 
 # Altur UI
+ 
 
-  
-
-Its a pure CSS component library, using which you can create clean and reusable components on the go. All you need to do is import the CSS file through the link provided below, and give appropiate class names to your HTML elements, as specified in the documentation website and voila! your components are ready to use.
+A component library that helps you build your dream projects faster without any hassle. All you need to do is import the CSS file through the link provided below, and give appropiate class names to your HTML elements, as specified in the documentation website and voila! your components are ready to use.
 
 ## Live URL
 
