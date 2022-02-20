@@ -40,14 +40,14 @@ or
  ### Components
  The components list is as follows
  
- - Avatar
- - Alert
- - Badge
- - Button
- - Card
- - Image
- - Input
- - Lists
- - Rating
- - Text Utilities
+ - [Alerts](https://altur-ui.netlify.app/documentation/alert.html)
+ - [Avatars](https://altur-ui.netlify.app/documentation/avatar.html)
+ - [Badges](https://altur-ui.netlify.app/documentation/badge.html)
+ - [Buttons](https://altur-ui.netlify.app/documentation/button.html)
+ - [Cards](https://altur-ui.netlify.app/documentation/card.html)
+ - [Image](https://altur-ui.netlify.app/documentation/image.html)
+ - [Input](https://altur-ui.netlify.app/documentation/input.html)
+ - [Lists](https://altur-ui.netlify.app/documentation/list.html)
+ - [Rating](https://altur-ui.netlify.app/documentation/rating.html)
+ - [Text Utilities](https://altur-ui.netlify.app/documentation/text-utility.html)
  
