@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../../stylesheets/main.css">
     <link rel="stylesheet" href="../../stylesheets/docs.css">
 
-    <title>Toast | Altur UI</title>
+    <title>Navigation | Altur UI</title>
 </head>
 
 <body>
@@ -63,7 +63,7 @@
                 <li class="menu-item text-l">
                     <a href="list.html">List</a>
                 </li>
-                <li class="menu-item text-l">
+                <li class="link-active menu-item text-l">
                     <a href="navigation.html">Navigation</a>
                 </li>
                 <li class="menu-item text-l">
@@ -72,7 +72,7 @@
                 <li class="menu-item text-l">
                     <a href="text-utility.html">Text Utility</a>
                 </li>
-                <li class="link-active menu-item text-l">
+                <li class="menu-item text-l">
                     <a href="toast.html">Toast</a>
                 </li>
             </ul>
@@ -81,59 +81,37 @@
 
         <div class="main-content">
 
-            <h1 class="boldest text-xxl">Toast</h1>
+            <h1 class="boldest text-xxl">Navigation</h1>
 
-            <h3 class="text-l">Toasts are used to convery some information after an action. It lasts for a few seconds before disappearing. They are usually used for quick info to the user without blocking the screen/ userflow. Here, two types of
-                toasts are shown: </h3>
+            <h3 class="text-l">Navigation is a very important component in modern day apps. User can move around in the app through navigation. The navigation header usually contains logo and main navigation links:  </h3>
 
-                <h2 class="sub-heading text-xl">Baseline Toast</h2>
-            <div class="toasts">
 
-                <div class="snackbar content-center">
-                    <div class="toast baseline-toast">
-                        <p>Can't send photo. Retry in 5 seconds.</p>
-                        <button>RETRY</button>
-                        <i class="icons bl-icons fas fa-times"></i>
-                    </div>
-
+            <nav class="nav-simple flex-center-sb text-xl">
+                <a href="#">
+                    <h1 class="text-xxl">Brand Name</h1>
+                </a>
+                <div class="links text-l">
+                    <a href="#">Home</a>
+                    <a href="#">Login</a>
+                    <a href="#">About</a>
                 </div>
+            </nav>
 
-                <div class="code-snippet">
-                    <pre><code>
-                        <div class="toast baseline-toast">
-                            <p>Can't send photo. Retry in 5 seconds.</p>
-                            <button>RETRY</button>
-                            <i class="icons bl-icons fas fa-times"></i>
+            <div class="code-snippet">
+                <pre><code>
+                    <nav class="nav-simple flex-center-sb text-xl">
+                        <a href="#">
+                            <h1 class="text-xxl">Brand Name</h1>
+                        </a>
+                        <div class="links text-l">
+                            <a href="#">Home</a>
+                            <a href="#">Login</a>
+                            <a href="#">About</a>
                         </div>
-                    </code></pre>
-                </div>
-
-                <h2 class="sub-heading text-xl">Stacked Toast</h2>
-                <div class="snackbar content-center">
-                    <div class="toast stacked-toast flex-column">
-                        <p>This item already has the label "travel". You can add a new label. </p>
-                        <div class="stacked-actions">
-                            <button>ADD A NEW LABEL</button>
-                            <i class="icons sd-icons fas fa-times"></i>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="code-snippet">
-                    <pre><code>
-                        <div class="toast stacked-toast">
-                            <p>This item already has the label "travel". You can add a new label. </p>
-                            <div class="stacked-actions">
-                                <button>ADD A NEW LABEL</button>
-                                <i class="icons sd-icons fas fa-times"></i>
-                            </div>
-                        </div>
-                    </code></pre>
-                </div>
-
+                    </nav>
+                </code></pre>
             </div>
-
+           
         </div>
 
     </div>
