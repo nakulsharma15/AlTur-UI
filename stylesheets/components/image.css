@@ -12,6 +12,10 @@
     width: 15rem;
 }
 
+.img-comp-container {
+    margin-right: 10rem;
+}
+
 .round-img {
     border-radius: 50%;
 }

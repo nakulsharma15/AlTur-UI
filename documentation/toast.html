@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css" />
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="../../stylesheets/main.css">
+    <link rel="stylesheet" href="../../stylesheets/docs.css">
+
+    <title>Toast | Altur UI</title>
+</head>
+
+<body>
+
+    <nav class="flex-center-sb text-xxl">
+        <a href="../index.html">
+            <h1 class="text-xxl">Altur UI</h1>
+        </a>
+
+        <div class="links text-l">
+            <a href="../documentation/alert.html">Docs <i class="fas fa-file"></i></a>
+            <a target="_blank" href="https://github.com/nakulsharma15/Altur-UI">GitHub <i class="fab fa-github"></i></a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <aside class="menu">
+
+            <ul class="text-m menu-ul">
+                <li class="menu-item text-l">
+                    <a href="alert.html">Alert</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="avatar.html">Avatar</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="badge.html">Badge</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="button.html">Button</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="card.html">Card</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="image.html">Image</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="input.html">Input</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="list.html">List</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="rating.html">Rating</a>
+                </li>
+                <li class="menu-item text-l">
+                    <a href="text-utility.html">Text Utility</a>
+                </li>
+                <li class="link-active menu-item text-l">
+                    <a href="toast.html">Toast</a>
+                </li>
+            </ul>
+
+        </aside>
+
+        <div class="main-content">
+
+            <h1 class="boldest text-xxl">Toast</h1>
+
+            <h3 class="text-l">Toasts are used to convery some information after an action. It lasts for a few seconds before disappearing. They are usually used for quick info to the user without blocking the screen/ userflow. Here, two types of
+                toasts are shown: </h3>
+
+                <h2 class="sub-heading text-xl">Simple Toast</h2>
+            <div class="toasts">
+
+                <div class="snackbar content-center">
+                    <div class="toast baseline-toast">
+                        <p>Can't send photo. Retry in 5 seconds.</p>
+                        <button>RETRY</button>
+                        <i class="icons bl-icons fas fa-times"></i>
+                    </div>
+
+                </div>
+
+                <div class="code-snippet">
+                    <pre><code>
+                        <div class="toast baseline-toast">
+                            <p>Can't send photo. Retry in 5 seconds.</p>
+                            <button>RETRY</button>
+                            <i class="icons bl-icons fas fa-times"></i>
+                        </div>
+                    </code></pre>
+                </div>
+
+                <h2 class="sub-heading text-xl">Stacked Toast</h2>
+                <div class="snackbar content-center">
+                    <div class="toast stacked-toast flex-column">
+                        <p>This item already has the label "travel". You can add a new label. </p>
+                        <div class="stacked-actions">
+                            <button>ADD A NEW LABEL</button>
+                            <i class="icons sd-icons fas fa-times"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <pre><code>
+                        <div class="toast stacked-toast">
+                            <p>This item already has the label "travel". You can add a new label. </p>
+                            <div class="stacked-actions">
+                                <button>ADD A NEW LABEL</button>
+                                <i class="icons sd-icons fas fa-times"></i>
+                            </div>
+                        </div>
+                    </code></pre>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="flex-justify-align">
+        <p>Made with <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/nakulsharma15">Nakul
+                Sharma</a> </p>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
