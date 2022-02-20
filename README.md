@@ -46,9 +46,13 @@ or
  - [Badge](https://altur-ui.netlify.app/documentation/badge.html)
  - [Button](https://altur-ui.netlify.app/documentation/button.html)
  - [Card](https://altur-ui.netlify.app/documentation/card.html)
+ - [Grid](https://altur-ui.netlify.app/documentation/grid.html)
  - [Image](https://altur-ui.netlify.app/documentation/image.html)
  - [Input](https://altur-ui.netlify.app/documentation/input.html)
  - [List](https://altur-ui.netlify.app/documentation/list.html)
+ - [Navigation](https://altur-ui.netlify.app/documentation/navigation.html)
  - [Rating](https://altur-ui.netlify.app/documentation/rating.html)
+ - [Slider](https://altur-ui.netlify.app/documentation/slider.html)
  - [Text Utility](https://altur-ui.netlify.app/documentation/text-utility.html)
+ - [Toast](https://altur-ui.netlify.app/documentation/toast.html)
  
