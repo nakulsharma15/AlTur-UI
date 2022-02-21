@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    max-width: fit-content;
+    margin: 2rem;
+}
+
+.grid-2 {
+    grid-template-columns:  repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.grid-item {
+    border: 1px solid var(--black);
+    padding: 2rem;
+}
+
