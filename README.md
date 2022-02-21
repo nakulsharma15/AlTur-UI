@@ -27,7 +27,7 @@ or
 ## Features
 
 ### Typography
- Tarang uses 2 fonts primarily 
+ Altur-UI uses 2 fonts primarily 
 -  `Montserrat` for all other heading tags, paragraphs and 
 - `Poppins` for Card component. 
 
