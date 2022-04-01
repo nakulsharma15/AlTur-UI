@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="../stylesheets/main.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -18,19 +20,21 @@
     <link rel="stylesheet" href="../../stylesheets/main.css">
     <link rel="stylesheet" href="../../stylesheets/docs.css">
 
-    <title>Rating | Altur UI</title>
+    <title>Modal | Altur UI</title>
 </head>
 
 <body>
 
     <nav class="flex-center-sb text-xxl">
-        <a href="../index.html"> <h1 class="text-xxl">Altur UI</h1></a>
- 
-         <div class="links text-l">
-             <a href="../documentation/alert.html">Docs <i class="fas fa-file"></i></a>
-             <a target="_blank" href="https://github.com/nakulsharma15/Altur-UI">GitHub <i class="fab fa-github"></i></a>     
-         </div>    
-     </nav>
+        <a href="../index.html">
+            <h1 class="text-xxl">Altur UI</h1>
+        </a>
+
+        <div class="links text-l">
+            <a href="../documentation/alert.html">Docs <i class="fas fa-file"></i></a>
+            <a target="_blank" href="https://github.com/nakulsharma15/Altur-UI">GitHub <i class="fab fa-github"></i></a>
+        </div>
+    </nav>
 
     <div class="container">
 
@@ -53,7 +57,7 @@
                     <a href="card.html">Card</a>
                 </li>
                 <li class="menu-item text-l">
-                    <a href="grid.html">Grid</a>
+                    <a href="grid.html">grid</a>
                 </li>
                 <li class="menu-item text-l">
                     <a href="image.html">Image</a>
@@ -64,13 +68,13 @@
                 <li class="menu-item text-l">
                     <a href="list.html">List</a>
                 </li>
-                <li class="menu-item text-l">
+                <li class="link-active menu-item text-l">
                     <a href="modal.html">Modal</a>
                 </li>
                 <li class="menu-item text-l">
                     <a href="navigation.html">Navigation</a>
                 </li>
-                <li class="link-active menu-item text-l">
+                <li class="menu-item text-l">
                     <a href="rating.html">Rating</a>
                 </li>
                 <li class="menu-item text-l">
@@ -88,67 +92,58 @@
 
         <div class="main-content">
 
-            <h1 class="boldest text-xxl">Rating</h1>
+            <h1 class="boldest text-xxl">Modal</h1>
 
-            <h3 class="text-l">Ratings are used to show and record user's experience of a product. </h3>
+            <h3 class="text-l">A modal is a dialog box/popup window that is displayed on top of the current page to grab attention and requiring user interaction. Two types of modals are shown below: </h3>
 
-            <h2 class="sub-heading text-xl">Star Ratings</h2>
-
-            <div>
-                <i class="star-rating text-xl fas fa-star"></i>
-                <i class="star-rating text-xl fas fa-star"></i>
-                <i class="star-rating text-xl fas fa-star"></i>
-                <i class="star-rating text-xl fas fa-star"></i>
-                <i class="star-rating text-xl fas fa-star"></i>
-            </div>
+            <h2 class="sub-heading text-xl">Alert Modal:</h2>
+            <div class="modal flex-column">
+                <p class="modal-header">Exit</p>
+                <p class="modal-text">Are you sure you want to exit</p>
+              <div class="actions">
+                <button class="action-button">Yes</button>
+                <button class="action-button modal-secondary-btn">No, Go Back</button>
+              </div>
             
-             <br></br>
-            <div class="code-snippet">
-                <pre><code>
-                        <i class="star-rating text-xl fas fa-star"></i>
-                        <i class="star-rating text-xl fas fa-star"></i>
-                        <i class="star-rating text-xl fas fa-star"></i>
-                        <i class="star-rating text-xl fas fa-star"></i>
-                        <i class="star-rating text-xl fas fa-star"></i>              
-                </code></pre>
-            </div>
-            <br></br>
-            <i class="star-rating text-xl fas fa-star"></i>
-            <i class="star-rating text-xl fas fa-star"></i>
-            <i class="star-rating text-xl fas fa-star"></i>
-            <i class="star-rating icon-empty text-xl far fa-star"></i>
-            <i class="star-rating icon-empty text-xl far fa-star"></i>
-           
-            <br></br>
-            <div class="code-snippet">
-                <pre><code>
-                    <i class="star-rating text-xl fas fa-star"></i>
-                    <i class="star-rating text-xl fas fa-star"></i>
-                    <i class="star-rating text-xl fas fa-star"></i>
-                    <i class="star-rating icon-empty text-xl far fa-star"></i>
-                    <i class="star-rating icon-empty text-xl far fa-star"></i>
-                </code></pre>
             </div>
 
-            <h2 class="sub-heading text-xl">Badge Rating</h2>
-
-            <div class="limit-width badge-rating text-l">
-                <i class="fas fa-star"></i>
-                5.0
-            </div>
-             <br></br>
-             
-             <div class="code-snippet">
-                 <pre><code>
-                    <div class="badge-rating text-l">
-                        <i class="fas fa-star"></i>
-                        5.0
+            <div class="code-snippet">
+                <pre><code>
+                    <div class="modal flex-column">
+                        <p class="modal-header">Exit</p>
+                        <p class="modal-text">Are you sure you want to exit</p>
+                        <div class="actions">
+                            <button class="action-button">Yes</button>
+                            <button class="action-button modal-secondary-btn">No, Go Back</button>
+                        </div>                
                     </div>
-                 </code></pre>              
-             </div>
+                </code></pre>
+            </div>
 
-            <br></br>          
-          
+            <h2 class="sub-heading text-xl">Simple Modal:</h2>
+            
+            <div class="simple-modal">
+                <p  class="modal-header">Simple Modal</p>
+                <ul>
+                    <li> <i class="icons fas fa-user"></i> Item 1</li>
+                    <li> <i class="icons fas fa-user"></i> Item 2</li>
+                    <li> <i class="icons fas fa-user"></i> Item 3</li>
+                </ul>
+            </div>
+
+            <div class="code-snippet">
+                <pre><code>
+                    <div class="simple-modal">
+                        <p  class="modal-header">Simple Modal</p>
+                        <ul>
+                            <li> <i class="icons fas fa-user"></i> Item 1</li>
+                            <li> <i class="icons fas fa-user"></i> Item 2</li>
+                            <li> <i class="icons fas fa-user"></i> Item 3</li>
+                        </ul>
+                    </div>
+                </code></pre>
+            </div>
+         
         </div>
 
     </div>
@@ -163,3 +158,4 @@
 </body>
 
 </html>
+
