@@ -1,0 +1,86 @@
+
+.modal{
+    width: 30rem;
+    height: 10rem;
+    border: 2px solid var(--black);
+    margin: 3rem;
+}
+
+.modal-header {
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.modal-text {
+    padding: 1rem;
+    padding-top: 0rem;
+    color: var(--gray-700);
+    font-weight: lighter;
+}
+
+.actions {
+    width: auto;
+    margin-left: auto;
+}
+
+.action-button {
+    color: var(--white);
+    border: none;
+    background-color: var(--blue-600);
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    
+}
+
+.modal-secondary-btn {
+    color: var(--black);
+    background-color: var(--white);
+    border: 2px solid black;
+}
+
+.action-button:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+.modal-secondary-btn:hover {
+    background-color: var(--gray-200);
+}
+
+.simple-modal {
+
+    width: 15rem;
+    height: 18rem;
+    border: 2px solid var(--black);
+    background-color: var(--white);
+    margin-bottom: 4rem;
+}
+
+.simple-modal p {
+    margin: 0.5rem;
+}
+
+.simple-modal ul {
+    margin: auto 0.75rem;
+}
+
+.simple-modal li{
+    padding: 0.5rem;
+}
+
+.simple-modal li:hover{
+    background-color: var(--gray-200);
+    cursor: pointer;
+}
+
+.icons {
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--gray-500);
+    color: var(--gray-200);
+}
+
