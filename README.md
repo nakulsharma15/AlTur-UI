@@ -50,6 +50,7 @@ or
  - [Image](https://altur-ui.netlify.app/documentation/image.html)
  - [Input](https://altur-ui.netlify.app/documentation/input.html)
  - [List](https://altur-ui.netlify.app/documentation/list.html)
+ - [Modal(temp)](https://altur-ui-temp.netlify.app/documentation/list.html)
  - [Navigation](https://altur-ui.netlify.app/documentation/navigation.html)
  - [Rating](https://altur-ui.netlify.app/documentation/rating.html)
  - [Slider](https://altur-ui.netlify.app/documentation/slider.html)
