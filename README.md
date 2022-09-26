@@ -32,7 +32,7 @@ or
 - `Poppins` for Card component. 
 
 ### Colors
- The main colors used by Tarang are
+ The main colors used by Altur-UI are
  
  - Primary-color: `#1d4ed8`
  - Secondary-color: `#f97316)`	
